@@ -6,3 +6,7 @@
 - close the game.
 - download `singleplayerMod.dll` from [Releases](https://github.com/o7Moon/BarjiKart.Singleplayer/releases).
 - move `singleplayerMod.dll` to `(Game Folder from step 2)/BepInEx/plugins/singleplayerMod.dll`.
+
+
+# Usage:
+- host a game, and hold left shift while clicking a track. this will automatically load that track regardless of if there are enough players or not.
