@@ -7,6 +7,8 @@
 - download `singleplayerMod.dll` from [Releases](https://github.com/o7Moon/BarjiKart.Singleplayer/releases).
 - move `singleplayerMod.dll` to `(Game Folder from step 2)/BepInEx/plugins/singleplayerMod.dll`.
 
+NOTE: bepinex currently crashes when running barji kart on windows, but for some reason not when running under proton. i will update this page if this changes but for now this mod will only be usable if you are running the game through proton.
+
 
 # Usage:
 - host a game, and hold left shift while clicking a track. this will automatically load that track regardless of if there are enough players or not.
