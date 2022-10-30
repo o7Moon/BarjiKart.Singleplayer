@@ -17,9 +17,9 @@ namespace singeplayerMod
         }
         [HarmonyPatch(typeof(Barji.TrackSelectionGraphic),nameof(Barji.TrackSelectionGraphic.UpdateDetails))]
         [HarmonyPostfix]
-        public static void OnTrackSelected(Barji.TrackSelectionGraphic __instance, ushort KBNNCHHDEBA, KEOEIGLJCBP KIJHANMEJFJ, int OCBCICKOIGJ){
+        public static void OnTrackSelected(Barji.TrackSelectionGraphic __instance, ushort __0, MHILKHJNBHF __1, int __2){
             if (Input.GetKey(KeyCode.LeftShift)){
-                int scene_num = (int) KIJHANMEJFJ;
+                int scene_num = (int) __1;
                 SceneManager.LoadScene(scene_num);
             }
         }
