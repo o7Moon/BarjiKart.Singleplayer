@@ -12,7 +12,6 @@ namespace BarjiKart.Singleplayer {
         [HarmonyPatch(typeof(Barji.TrackSelectionManager),nameof(Barji.TrackSelectionManager.UpdateTrackSelectionGraphic))]
         [HarmonyPostfix]
         public static void onTrackSelect(Barji.TrackSelectionManager __instance, ushort __0, short __1, int __2){
-            Debug.Log("A");
             if (Input.GetKey(KeyCode.LeftShift)) SceneManager.LoadScene(__1);
         }
     }
